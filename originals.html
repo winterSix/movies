@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Originals.com</title>
+  <style>
+    body
+    {
+      font-size: large;
+    }
+  </style>
+</head>
+
+<body>
+  <p style = "text-align: center;">This page is about the Originals main siblings</p>
+  <p>pictures of the originals:</p>
+  <ul>
+    <li>
+      <img src = "Niklaus.jpeg">
+    </li>
+    <li>
+      <img src = "https://static.wikia.nocookie.net/little-wolf/images/7/77/12326285b95bd9ffbdb8faa165e17b84.jpg">
+    </li>
+    <li>
+      <img src = "https://static.wikia.nocookie.net/the-vampire-diaries-originals-tv-series/images/f/f3/RebekahMikaelson.png">
+    </li>
+  </ul>
+  <form action = "thank_you.html">
+    <p>If you ever watch the orginals, Type in your favourite character</p>
+    <label for = "name_box">Name:</label>
+    <input type = "text" name = "name_box"><br>
+    <label for = "favourite_character">favourite character:</label>
+    <input type = "text" name = "favourite_character"><br>
+    <label for = "user_email">Email:</label>
+    <input type = "email" name = "user_email"><br>
+    <label for = "user_number">Phone number:</label>
+    <input type = "tel" name = "user_number"><br>
+    <label for = "character_description">Enter why you chose that character:</label><br>
+    <textarea name = "character_description" style = "resize: none;">Enter why you chose that character</textarea><br>
+    <input type = "checkbox" name = "Niklaus">
+    <label for="Elijah">I like Elijah</label><br>
+    <input type = "checkbox" name = "Elijah">
+    <label for="Niklaus">I like Niklaus</label><br>
+    <input type = "checkbox" name = "Rebecca">
+    <label for="Rebecca">I like Rebecca</label><br>
+    <input type = "submit" name = "submit_button">
+    <input type = "reset" name = "reset_button">
+    <label for = "other_characters">Enter other character that you may like: </label>
+    <input list = "other_characters" name = "other_characters_options">
+  </form>
+
+  <datalist id="other_characters">
+    <option value = "Hayley Marshall">Hayley Marshall</option>
+    <option value = "Davina Claire">Davina Claire</option>
+    <option value = "Camille">Camille </option>
+    <option value = "Freya Mikaelson">Freya Mikaelson</option>
+  </datalist>
+</body>
+
+</html>
